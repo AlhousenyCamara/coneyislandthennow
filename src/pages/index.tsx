@@ -8,12 +8,12 @@ export default function Home() {
     <main className='bg-black'>
       <div className="flex h-screen relative overflow-hidden">
         <div className="w-1/2 relative">
-          <div className="absolute inset-0 bg-black opacity-40">
+          <div className="absolute inset-0 bg-black opacity-70">
           <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(old.png)'}}></div>
           </div>
         </div>
         <div className="w-1/2 relative">
-          <div className="absolute inset-0 bg-black opacity-40">
+          <div className="absolute inset-0 bg-black opacity-70">
           <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(new.png)'}}></div>
           </div>
         </div>
