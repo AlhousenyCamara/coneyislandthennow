@@ -13,6 +13,9 @@ const config: Config = {
       }
     
     },
+    fontFamily:{
+      coney:["CONEY"]
+    }
   },
   plugins: [],
 }

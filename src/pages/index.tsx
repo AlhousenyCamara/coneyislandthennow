@@ -5,26 +5,28 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main>
+    <main className='bg-black'>
       <div className="flex h-screen relative overflow-hidden">
         <div className="w-1/2 relative">
-          <div className="absolute inset-0 bg-black opacity-60"></div>
+          <div className="absolute inset-0 bg-black opacity-40">
           <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(old.png)'}}></div>
+          </div>
         </div>
         <div className="w-1/2 relative">
-          <div className="absolute inset-0 bg-black opacity-80"></div>
+          <div className="absolute inset-0 bg-black opacity-40">
           <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(new.png)'}}></div>
+          </div>
         </div>
         <div className="absolute inset-0 flex items-center justify-center text-center">
-          <h1 className="text-4xl px-5 md:text-7xl font-bold text-orange">CONEY ISLAND THEN AND NOW</h1>
+          <h1 className="text-4xl px-5 md:text-7xl font-bold text-orange font-coney">CONEY ISLAND THEN AND NOW</h1>
         </div>
       </div>
       <section className='p-2 md:p-20'>
-    <div className='mt-8 text-2xl md:text-6xl text-center'>“Coney Island Then and Now” </div>
+    <div className='mt-8 text-2xl md:text-6xl text-center font-coney'>“Coney Island Then and Now” </div>
     <div className='text-lg md:text-2xl text-center mt-5 md:mt-8'> Tells the story of one of the most magical places in the world. Not exactly Disney World.. This gritty documentary film shows the evolution of Coney Island, Brooklyn’s famous beachfront Amusement Park which has made many transformations over the years. From visionary George Tilyou’s Steeplechase amusement park  to land baron Fred Trump’s controversial Trump Village, and now rapper and Coney Island native Gorilla Nems is changing things with the times. </div>
     <div className='text-lg md:text-2xl text-center mt-5'> There are many stories in this very mixed community made up of Russians, Latinos, Asians, and African Americans creating an interesting dichotomy where old Coney Island and new collide with gentrification and a booming real estate market. Even if you have never been to Coney Island its iconic symbols like the Wonder Wheel, The Cyclone, Nathan’s Hot Dogs, The Mermaid Parade, Graffiti Walk, and Coney Island USA Sideshow will be. This is a special place and a story that must be told.</div>
-    <div className='text-2xl md:text-5xl text-center mt-5 mb-8 text-orange'>3 Avenue 21 blocks infinite stories.</div>
-    <div className='text-2xl md:text-4xl text-center'>“Coney Island Then and Now” </div>
+    <div className='text-2xl md:text-5xl text-center mt-5 mb-8 text-orange'>3 Avenues 21 blocks infinite stories.</div>
+    <div className='text-2xl md:text-4xl text-center font-coney'>“Coney Island Then and Now” </div>
       <div className="flex justify-center mt-5">
     <img src="post1.jpeg" alt="Flyer 1" className="w-1/3 mx-2"/>
     <img src="post2.png" alt="Flyer 2" className="w-1/3 mx-2"/>
@@ -33,7 +35,7 @@ export default function Home() {
       <span className='mr-8'>Produced By: KIMBERLY GRAY </span>
       <span> Directed By: MARIA CLARA</span>
     </div>
-    <div className='text-2xl md:text-4xl text-center'>Starring: GORILLA NEMS  DANIELLE MASTRION XAVIER FRANKS DICK ZIGUN WENDY BLADESBRENDAN SCHWEDA ERIC KNAPP AKA &quot;MR.CYCLONE&quot; ALAN ZINDMAN
+    <div className='text-2xl md:text-4xl text-center text-orange font'>Starring: GORILLA NEMS  DANIELLE MASTRION XAVIER FRANKS DICK ZIGUN WENDY BLADESBRENDAN SCHWEDA ERIC KNAPP AKA &quot;MR.CYCLONE&quot; ALAN ZINDMAN
     IRENE KARAS LEROY McCARTHY MELANIE ABRAMOV, 
     </div>
     <div className='text-lg md:text-2xl text-center mt-5'>77 Films is a New York City based production company that tells real slice of life stories. Produced by  Kimberly Gray (Bastards of the party) and Maria Clara (Life on Christopher Street)
