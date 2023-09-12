@@ -41,10 +41,20 @@ export default function Home() {
       <span className='mr-8'>Produced By: KIMBERLY GRAY </span>
       <span> Directed By: MARIA CLARA</span>
     </div>
-    <div className='text-2xl md:text-4xl text-center text-orange font'>Starring: GORILLA NEMS DANIELLE MASTRION XAVIER FRANKS DICK ZIGUN WENDY BLADES BRENDAN SCHWEDA ERIC KNAPP AKA &quot;MR.CYCLONE&quot; ALAN ZINDMAN
-    IRENE KARAS LEROY McCARTHY MELANIE ABRAMOV
+    <div className=' flex justify-between flex-col text-2xl md:text-4xl text-center text-orange '>
+    <span>STARRING: GORILLA NEMS</span>
+    <span className='mt-2'>DANIELLE MASTRION</span>
+    <span className='mt-2'>XAVIER FRANKS</span>
+    <span className='mt-2'>DICK ZIGUN</span>
+    <span className='mt-2'>WENDY BLADES</span>
+    <span className='mt-2'>BRENDAN SCHWEDA </span>
+    <span className='mt-2'>ERIC KNAPP AKA &quot;MR.CYCLONE&quot;</span>
+    <span className='mt-2'>ALAN ZINDMAN</span>
+    <span className='mt-2'>IRENE KARAS</span>
+    <span className='mt-2'>LEROY McCARTHY</span>
+    <span className='mt-2'>MELANIE ABRAMOV</span>
     </div>
-    <div className='text-lg md:text-2xl text-center mt-5'>77 Films is a New York City based production company that tells real slice of life stories. Produced by  Kimberly Gray (Bastards of the party) and Maria Clara (Life on Christopher Street)
+    <div className='text-lg md:text-2xl text-center mt-5'>77 Films is a New York City based production company that tells real slice of life stories. Produced by  Kimberly Gray (Bastards of the Party) and Maria Clara (Life on Christopher St)
     </div>
     <div className='text-lg md:text-2xl text-center mt-5'>“Coney Island: Then and Now” is a documentary film about the evolution of Coney Island, Brooklyn’s famous beachfront Amusement Park which has made many transformations over the years. The film details the history and nostalgia of Coney Island’s boardwalk, including the iconic landmarks the Wonder Wheel, Cyclone, Nathan’s Hot Dogs, The Mermaid Parade, Graffiti Walk, and Coney Island USA Sideshow.</div>
     <div className='text-lg text-center mt-5'>For Sales and Press contact Kimberly Gray at <span className='text-orange underline'>kimberlygray1@gmail.com</span></div>
