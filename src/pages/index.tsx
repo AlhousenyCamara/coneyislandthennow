@@ -41,6 +41,9 @@ export default function Home() {
       <span className='mr-8'>Produced By: KIMBERLY GRAY </span>
       <span> Directed By: MARIA CLARA</span>
     </div>
+      <div className='flex justify-center mb-6'>
+        <a href="https://www.kenttheater.com/" target='blank'><button className='w-40 h-10 rounded-lg bg-orange font-semibold'>Buy tickets here!</button></a>
+        </div>
     <div className=' flex justify-between flex-col text-2xl md:text-4xl text-center text-orange '>
     <span>STARRING: GORILLA NEMS</span>
     <span className='mt-2'>DANIELLE MASTRION</span>
