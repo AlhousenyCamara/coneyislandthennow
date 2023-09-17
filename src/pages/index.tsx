@@ -22,13 +22,18 @@ export default function Home() {
         </div>
       </div>
       <section className='p-2 md:p-20'>
-        <div className="inset-0 rounded-lg flex items-center justify-center mt-8">
+        <div className="inset-0 rounded-lg flex items-center justify-center mt-2">
       <video width="1020" height="240" controls poster="thumbnail.png">
         <source src="t.mp4" type="video/mp4"/>
         Your browser does not support the video tag.
       </video>
     </div>
-    <div className='mt-10 text-2xl md:text-6xl text-center font-coney'>“Coney Island Then and Now” </div>
+    <div className='flex flex-col items-center justify-center mb-6 m-2'>
+        <div className='mt-4 text-2xl md:text-3xl font-semibold'>Screening at The Kent Theather. September 22nd at 7:30pm  </div>
+        <div className='mt-2 mb-4 text-lg md:text-2xl'>Q&A with cast following screening </div>
+        <a href="https://www.kenttheater.com/" target='blank'><button className='w-40 h-10 md:w-60 md:h-16 rounded-lg text-lg md:text-xl bg-orange font-semibold'>Buy tickets here!</button></a>
+        </div>
+    <div className='mt-8 text-2xl md:text-6xl text-center font-coney'>“Coney Island Then and Now” </div>
     <div className='text-lg md:text-2xl text-center mt-5 md:mt-8'> Tells the story of one of the most magical places in the world. Not exactly Disney World.. This gritty documentary film shows the evolution of Coney Island, Brooklyn’s famous beachfront Amusement Park which has made many transformations over the years. From visionary George Tilyou’s Steeplechase amusement park  to land baron Fred Trump’s controversial Trump Village, and now rapper and Coney Island native Gorilla Nems is changing things with the times. </div>
     <div className='text-lg md:text-2xl text-center mt-5'> There are many stories in this very mixed community made up of Russians, Latinos, Asians, and African Americans creating an interesting dichotomy where old Coney Island and new collide with gentrification and a booming real estate market. Even if you have never been to Coney Island its iconic symbols like the Wonder Wheel, The Cyclone, Nathan’s Hot Dogs, The Mermaid Parade, Graffiti Walk, and Coney Island USA Sideshow will be. This is a special place and a story that must be told.</div>
     <div className='text-2xl md:text-5xl text-center mt-5 mb-8 text-orange'>3 Avenues 21 blocks infinite stories.</div>
@@ -41,9 +46,6 @@ export default function Home() {
       <span className='mr-8'>Produced By: KIMBERLY GRAY </span>
       <span> Directed By: MARIA CLARA</span>
     </div>
-      <div className='flex justify-center mb-6'>
-        <a href="https://www.kenttheater.com/" target='blank'><button className='w-40 h-10 rounded-lg bg-orange font-semibold'>Buy tickets here!</button></a>
-        </div>
     <div className=' flex justify-between flex-col text-2xl md:text-4xl text-center text-orange '>
     <span>STARRING: GORILLA NEMS</span>
     <span className='mt-2'>DANIELLE MASTRION</span>
