@@ -29,7 +29,7 @@ export default function Home() {
       </video>
     </div>
     <div className='flex flex-col items-center justify-center mb-6 m-2'>
-        <div className='mt-4 text-2xl md:text-3xl font-semibold'>Screening at The Kent Theather. September 22nd at 7:30pm  </div>
+        <div className='mt-4 text-2xl md:text-3xl font-semibold'>Screening at The Kent Theater. September 22nd at 7:30pm  </div>
         <div className='mt-2 mb-4 text-lg md:text-2xl'>Q&A with cast following screening </div>
         <a href="https://www.kenttheater.com/" target='blank'><button className='w-40 h-10 md:w-60 md:h-16 rounded-lg text-lg md:text-xl bg-orange font-semibold'>Buy tickets here!</button></a>
         </div>
