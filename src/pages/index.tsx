@@ -28,11 +28,6 @@ export default function Home() {
         Your browser does not support the video tag.
       </video>
     </div>
-    <div className='flex flex-col items-center justify-center mb-6 m-2'>
-        <div className='mt-4 text-2xl md:text-3xl font-semibold'>Screening at The Kent Theater. September 22nd at 7:30pm  </div>
-        <div className='mt-2 mb-4 text-lg md:text-2xl'>Q&A with cast following screening </div>
-        <a href="https://www.kenttheater.com/" target='blank'><button className='w-40 h-10 md:w-60 md:h-16 rounded-lg text-lg md:text-xl bg-orange font-semibold'>Buy tickets here!</button></a>
-        </div>
     <div className='mt-8 text-2xl md:text-6xl text-center font-coney'>“Coney Island: Then and Now” </div>
     <div className='text-lg md:text-2xl text-center mt-5 md:mt-8'>This gritty documentary film shows the evolution of Coney Island, Brooklyn’s famous beachfront amusement-infused neighborhood, which has made many transformations over the years. The film details the history and nostalgia of Coney Island’s boardwalk, including the iconic landmarks the Wonder Wheel, Cyclone, Nathan’s Hot Dogs, The Mermaid Parade, Graffiti Walk, and the Coney Island USA Circus Sideshow.</div>
     <div className='text-lg md:text-2xl text-center mt-5'>There are many stories to be told in this inclusive community made up of multiple cultures, where an interesting dichotomy between old and new Coney Island collides with gentrification and a booming real estate market. Learn about visionary George C. Tilyou’s historic Steeplechase Park, land baron Fred Trump’s controversial Trump Village, and see how modern day residents, like rapper and Coney Island native Gorilla Nems, have adapted to the times. This is a special place and a story that must be told.</div>
